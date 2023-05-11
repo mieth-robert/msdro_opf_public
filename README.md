@@ -1,12 +1,8 @@
 # Data Valuation from Data-Driven Optimization
 
-Code and data to replicate the results of the following paper:
+Code and data to replicate the results of the paper [Data Valuation from Data-Driven Optimization](https://arxiv.org/pdf/2305.01775.pdf).
 
-[Data Valuation from Data-Driven Optimization](https://arxiv.org/pdf/2305.01775.pdf)
-
----
-
-**Abstract** 
+**Abstract:** 
 With the ongoing investment in data collection and communication technology in power systems, data-driven optimization has been established as a powerful tool for system operators to handle stochastic system states caused by weatherand behavior-dependent resources. However, most methods are ignorant to data quality, which may differ based on measurement and underlying privacy-protection mechanisms. This paper addresses this shortcoming by (i) proposing a practical data quality metric based on Wasserstein distance, (ii) leveraging a novel modification of distributionally robust optimization using information from multiple data sets with heterogeneous quality to valuate data, (iii) applying the proposed optimization framework to an optimal power flow problem, and (iv) showing a direct method to valuate data from the optimal solution. We conduct numerical experiments to analyze and illustrate the proposed model and publish the implementation open-source.
 
 ---
